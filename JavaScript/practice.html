@@ -1,0 +1,51 @@
+<html>
+<head>
+  <script>
+        var x = [10, 3, 4];
+        var y = x;
+        x.push('Hello World');
+        console.log(x);
+        console.log(y);
+
+        let w = Math.floor(Math.random() * 483);
+        if(w > 400 && w%2==0) {
+          console.log(w + ' is greater than 400, it is also even')
+        }
+        else if (w < 400){
+          console.log(w + ' is less than 400')
+        }
+        console.log(w);
+
+        console.log('\u263A        \u2603        \u272f');
+let arr =[]
+for(let i = 0; i < 7; i++){
+  arr.push("toda mama");
+}
+console.log(arr);
+
+let total = 0;
+for(let i = 10; i > 0; i--){
+    total = total + i;
+}
+console.log(total);
+function sayNamePreminum(first_name, last_name){
+    console.log("Hello my name is " + first_name + " " + last_name);
+};
+sayNamePreminum("Stewart", "Dent");
+sayNamePreminum("Rocky", "Balboa");
+
+    </script>
+</head>
+<body>
+
+  <div id="message">
+        Hello World!
+    </div>
+<script>
+    let message = "<h1>Look, I'm a dynamic header!</h1>";
+    document.getElementById("message").innerHTML = message;
+</script>   
+
+
+</body>
+</html>
